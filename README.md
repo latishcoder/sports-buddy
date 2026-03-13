@@ -14,6 +14,11 @@ A full-stack MERN application for creating and joining local sports matches.
 
 ---
 
+🚀 Live Demo
+
+ Live Link:
+👉 https://sports-buddy-git-main-latishdev-gmailcoms-projects.vercel.app/
+
 ## 📁 Project Structure
 
 ```
