@@ -14,7 +14,7 @@ connectDB();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://sports-buddy-git-main-latishdev-gmailcoms-projects.vercel.app/"
+    "https://sports-buddy-five.vercel.app"
   ],
   credentials: true
 }));
