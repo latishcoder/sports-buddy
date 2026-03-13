@@ -11,11 +11,15 @@ const app = express();
 connectDB();
 
 // Middleware
+const cors = require("cors");
+
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://sports-buddy-five.vercel.app"
+    "https://sports-buddy-five.vercel.app",
+    "https://sports-buddy-git-main-latishdev-gmailcoms-projects.vercel.app"
   ],
+  methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
 app.use(express.json());
